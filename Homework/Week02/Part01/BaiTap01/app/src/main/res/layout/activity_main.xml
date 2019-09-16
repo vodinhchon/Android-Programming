@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Các kiểu lập trình sự kiện"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số A : "
+        android:textSize="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"/>
+
+        <EditText
+            android:id="@+id/editText_soa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số B : "
+            android:textSize="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"/>
+
+        <EditText
+            android:id="@+id/editText_sob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_ketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Kết quả :            "
+        android:textColor="@color/colorWhite"
+        android:textSize="26dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+    android:id="@+id/button_tong"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:text="Tổng 2 số"
+    android:textColor="@color/colorBlack"
+    android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button_hieu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Hiệu 2 số"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button_tich"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Tích 2 số"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button_thuong"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Thương 2 số"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button_uocchung"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Ước số chung lớn nhất"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button_boichung"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Bội số chung nhỏ nhất"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button_thoat"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Thoát chương trình"
+        android:textColor="@color/colorRed"
+        android:textSize="20dp"/>
+
+</LinearLayout>

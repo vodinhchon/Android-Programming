@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rút ngẫu nhiên 1 lá bài"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView_labai"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="130dp"
+        app:srcCompat="@drawable/b1fv"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_rutbai"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="Rút bài"
+            android:textSize="24sp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="428dp" />
+
+        <Button
+            android:id="@+id/button_bobai"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="Bỏ Bài"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

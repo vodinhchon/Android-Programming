@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_choilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chơi lại"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:text="Máy"
+            android:textColor="#2196F3"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_batdau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bắt đầu"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_rutbai1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginBottom="14dp"
+            android:text="Lật bài"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView_la1_nc1"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@color/colorWhite" />
+
+        <ImageView
+            android:id="@+id/imageView_la2_nc1"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@color/colorWhite" />
+
+        <ImageView
+            android:id="@+id/imageView_la3_nc1"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@color/colorWhite" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_diem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Điểm : "
+        android:textColor="#3F51B5"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:text="_______"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/b2fh" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="_______"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_diem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Điểm : "
+        android:textColor="#3F51B5"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView_la1_nc2"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@color/colorWhite" />
+
+        <ImageView
+            android:id="@+id/imageView_la2_nc2"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@color/colorWhite" />
+
+        <ImageView
+            android:id="@+id/imageView_la3_nc2"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@color/colorWhite" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_rutbai2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="14dp"
+        android:text="Lật bài"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:text="Người chơi"
+        android:textColor="#2196F3"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý nhân viên"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorDarkGreen"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã NV : "
+        android:textSize="18dp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/editText_manv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="50dp"
+        android:textSize="22dp"
+        android:hint="Vui lòng nhập thông tin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên NV : "
+            android:textSize="18dp"
+            android:textColor="@color/colorBlack"/>
+
+        <EditText
+            android:id="@+id/editText_tennv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="45dp"
+            android:textSize="22dp"
+            android:hint="Vui lòng nhập thông tin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loại NV : "
+            android:textSize="18dp"
+            android:textColor="@color/colorBlack"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup_loainv"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/radioButton_chinhthuc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chính thức"
+                android:checked="true"
+                android:layout_marginRight="10dp"
+                android:textSize="22dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButton_thoivu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời vụ"
+                android:textSize="22dp"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_nhapnv"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Nhập NV"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkGreen"
+        android:textSize="25dp"/>
+
+    <ListView
+        android:id="@+id/listView_ds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

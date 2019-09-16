@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bai02_week2_part2</string>
+    <string name="message_dialog_exist">Bạn muốn thoát không ?</string>
+    <string name="message_dialog_exist_title">Thông báo</string>
+    <string name="message_dialog_ok">Ok</string>
+    <string name="message_dialog_cancle">Cancle</string>
+</resources>

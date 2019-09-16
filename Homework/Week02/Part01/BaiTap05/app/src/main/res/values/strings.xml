@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BaiTap05</string>
+    <string-array name="city_array">
+        <item>Hà Nội</item>
+        <item>Hải Phòng</item>
+        <item>Quảng Ninh</item>
+        <item>Khánh Hòa</item>
+        <item>Huế</item>
+        <item>Đà Nẵng</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Nha Trang</item>
+        <item>Hồ Chí Minh</item>
+        <item>Cần Thơ</item>
+        <item>Cà Mau</item>
+    </string-array>
+</resources>

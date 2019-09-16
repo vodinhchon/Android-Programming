@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnxemds"
+        android:title="Xem danh sách">
+        <menu>
+            <item
+                android:id="@+id/mnxemdssv"
+                android:title="Sinh viên"/>
+            <item
+                android:id="@+id/mnxemdslh"
+                android:title="Lớp học"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mnsuads"
+        android:title="Sửa danh sách"/>
+    <item
+        android:id="@+id/mnxoads"
+        android:title="Xóa danh sách"/>
+    <item
+        android:id="@+id/mninds"
+        android:title="In danh sách"/>
+    <item
+        android:id="@+id/mnthemds"
+        android:title="Thêm danh sách">
+        <menu>
+            <item
+                android:id="@+id/mnthemdssv"
+                android:title="Sinh viên"/>
+            <item
+                android:id="@+id/mnthemdslh"
+                android:title="Lớp học"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thao Tác Dãy Số Nguyên Tố"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dãy số ngẫu nhiên : "
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView3_daysongaunhien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-> "
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <Button
+        android:id="@+id/button_tao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tạo"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả : "
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <TextView
+        android:id="@+id/textView5_ketqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-> "
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button2_xuatxuoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xuất xuôi"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <Button
+            android:id="@+id/button3_xuatnguoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xuất ngược"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <Button
+            android:id="@+id/button5_sapthutu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sắp thứ tự"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Min : "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Max : "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView8_demsnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đếm SNT : "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView9_tongsnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng SNT : "
+        android:textSize="24sp" />
+
+</LinearLayout>
