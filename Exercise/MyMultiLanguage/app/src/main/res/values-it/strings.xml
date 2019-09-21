@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Supporto per più lingue</string>
+    <string name="welcome">Benvenuto</string>
+    <string name="email">Email</string>
+    <string name="password">Parola d\'ordine</string>
+    <string name="login">Accesso</string>
+    <string name="signup">Non hai un account ? Iscriviti</string>
+    <string name="changelang">Cambia lingua</string>
+    <string name="notechange">La lingua è stata convertita !</string>
+</resources>
