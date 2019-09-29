@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name='Example_InternalStorage_2'
