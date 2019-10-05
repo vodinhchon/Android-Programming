@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OnThiGK</string>
+    <string-array name="arrayCity">
+        <item>Hà Nội</item>
+        <item>Hải Phòng</item>
+        <item>Huế</item>
+        <item>Đà Nẵng</item>
+        <item>Thanh Hóa</item>
+        <item>Vũng Tàu</item>
+        <item>TP.HCM</item>
+        <item>Cần Thơ</item>
+        <item>Cà Mau</item>
+    </string-array>
+    <string-array name="president_array">
+        <item>Dwight D. Eisenhover</item>
+        <item>John F. Kennedy</item>
+        <item>Lyndon B. Johnson</item>
+        <item>Richard Nixon</item>
+        <item>Gerald Ford</item>
+        <item>Jimmy Carter</item>
+        <item>Ronald Reagan</item>
+        <item>George H. W. Bush</item>
+        <item>Bill Clinton</item>
+        <item>George W. Bush</item>
+        <item>Barack Obama</item>
+    </string-array>
+</resources>

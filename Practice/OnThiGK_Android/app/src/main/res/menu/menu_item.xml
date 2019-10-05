@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_saveFile"
+        android:title=" Save File">
+    </item>
+    <item
+        android:id="@+id/menu_show"
+        android:title="Show Info">
+        <menu>
+            <item
+                android:id="@+id/menu_showListView"
+                android:title="List View"/>
+            <item
+                android:id="@+id/menu_showGridView"
+                android:title="Grid View"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_exit"
+        android:title="Exit">
+    </item>
+</menu>
