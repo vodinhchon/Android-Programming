@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bai02_week3</string>
+    <string name="hello_world">Hello world !</string>
+    <string name="action_settings">Settings</string>
+    
+    <color name="red">#F00</color>
+    <color name="green">#0F0</color>
+    <color name="blue">#00F</color>
+</resources>
